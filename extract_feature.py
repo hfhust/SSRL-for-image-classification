@@ -15,7 +15,9 @@ from network import *
 pp = pprint.PrettyPrinter()
 
 """
-TensorLayer implementation of DCGAN to generate face image.
+This file is used to extract features of images. The extracted features and corresponding labels will be used 
+to train a SVM classifier. During the test phase, the features will be extracted using the trained Generator
+model, then the extracted features will be  sent to the trained SVM classifier to predict their labels.
 
 Usage : see README.md
 """

@@ -1,9 +1,8 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct 30 20:47:21 2017
 
-@author: ldy
+
 """
 import scipy.misc
 

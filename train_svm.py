@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon May 16 20:41:24 2016
 
-@author: ldy
 """
 
+"""
 
+"""
+
+train svm and test.
+Usage : see README.md
+"""
 
 from time import time
 from sklearn.metrics import accuracy_score
